@@ -44,6 +44,8 @@ Our [AI Scientist fork](https://github.com/jdhart81/AI-Scientist-fork), [TOFMapp
 
 ## Try one real question
 
+[Bring your own statement and save a reusable ProofLens explanation](https://jdhart81.github.io/jdhart81/prooflens-builder-use/) — a browser trial and a manual companion-page recipe for theorem documentation.
+
 ProofLens is the easiest place to begin. Load a built-in example, change one parameter, and describe what changed and why. Then try a supported statement you want to understand.
 
 If it helps you answer a real question, or you get stuck, [share a short first-use report](https://github.com/jdhart81/prooflens/issues/new?template=builder_trial.yml). A successful example or a precise failure gives us something concrete to improve.

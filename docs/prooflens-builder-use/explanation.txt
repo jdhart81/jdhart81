@@ -1,0 +1,105 @@
+==============================================================================
+ProofLens.Examples.simple_upper_bound
+==============================================================================
+A power-limited upper bound on a rate, stated with two hypotheses that the
+proof never touches.
+
+**This redundancy is intentional.** The proof term is literally `h`; `hP` and
+`hT` are stated but unused. This declaration is the fixture for ProofLens's
+assumption-sensitivity analysis: a correct analysis must report that `hP` and
+`hT` do not participate in the derivation, even though they are physically
+natural things to assume about a power and a temperature. Compare
+`div_upper_bound`, where the hypotheses genuinely are used.
+
+WHAT WAS PROVED  [verified]
+  ∀ (x P T : ℝ), 0 < P → 0 < T → x ≤ P / T → x ≤ P / T
+
+IN WORDS  [derived]
+  x is at most P / T.
+
+WHAT KIND OF STATEMENT THIS IS  [derived]
+  The theorem establishes an upper bound: `x` cannot exceed `P / T` under the stated assumptions.
+
+WHICH ASSUMPTIONS DID THE WORK  [derived]
+  `hP : 0 < P` and `hT : 0 < T` are stated but never used by this proof term. That does not mean the hypothesis is mathematically unnecessary — only that this particular proof does not touch it.
+
+HOW THE UPPER BOUND RESPONDS  [derived]
+  The upper bound is `P / T`. Holding the other quantities fixed, and using only the sign hypotheses this theorem states: increasing `P` increases it; increasing `T` decreases it.
+
+WHAT THE SYMBOLS MEAN  [interpreted]
+  `x` is achieved operation rate (ops/s); `P` is available electrical power (W); `T` is operating temperature (K). These readings come from the declaration's ProofLens annotations, not from anything Lean checked.
+
+CLASSIFIERS
+  RELATION_UPPER_BOUND_001  [derived]
+    The conclusion `x ≤ P / T` puts `x` on the smaller side of `≤`, so `P / T` is an upper bound for it.
+  RELATION_LOWER_BOUND_001  [derived]
+    The same conclusion bounds `P / T` from below by `x`.
+  PROOF_ASSUMPTION_SENSITIVITY_001  [derived]
+    `hP`, `hT` do not occur in the elaborated proof term, in any later hypothesis type, or in the conclusion.
+
+══════════════════════════════════════════════════════════════════════════════
+Which assumptions the proof actually uses
+simple_upper_bound  •  assumption-sensitivity
+══════════════════════════════════════════════════════════════════════════════
+status: derived — Computed from the extracted statement by a deterministic
+rule; not a new proof.
+
+  HYPOTHESES (3)
+    [✔] h  : x ≤ P / T
+    [·] hP : 0 < P
+          NEVER USED BY THIS PROOF
+    [·] hT : 0 < T
+          NEVER USED BY THIS PROOF
+
+  → CONCLUSION
+    x ≤ P / T
+
+  2 of 3 hypotheses (hP, hT) never appear in this proof term. That is a fact
+  about this proof, not about mathematical necessity.
+
+──────────────────────────────────────────────────────────────────────────────
+WHY THIS FIGURE
+  `hP`, `hT` do not occur in the elaborated proof term, in any later
+  hypothesis type, or in the conclusion.
+
+NOTES
+  • 2 of 3 hypotheses are never used.
+  • Detached hypotheses do not occur in this proof term. A different proof
+    of the same statement might need them, so this is a fact about the
+    proof, not about mathematical necessity.
+
+
+══════════════════════════════════════════════════════════════════════════════
+x ≤ P / T
+power-limited rate bound  •  upper-bound-plot
+══════════════════════════════════════════════════════════════════════════════
+status: illustrative — A display choice. It makes no mathematical claim.
+
+         x (achieved operation rate (ops/s))
+                                     P / T
+  ├━━━━━━━━━━━━━━━━━━━━━━━◆━━━━━━━━━━━━●┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┤
+                                       ┬
+                                     P / T
+              x may lie here               excluded by the stated bound
+
+  axis: achieved operation rate (ops/s) — schematic scale
+
+  key:
+    ━━━ permitted by the theorem
+    ┄┄┄ ruled out by the theorem
+    ●   the bound itself is permitted (non-strict inequality)
+        the axis is schematic: which side of the marker a value lies on is
+        meaningful, the distance is not
+
+──────────────────────────────────────────────────────────────────────────────
+WHY THIS FIGURE
+  The conclusion `x ≤ P / T` puts `x` on the smaller side of `≤`, so `P / T`
+  is an upper bound for it.
+
+NOTES
+  • Increasing P increases the bound.
+  • Increasing T decreases the bound.
+  • Positions in this figure are schematic. They show which side of the
+    bound a quantity lies on, not how large anything is.
+
+

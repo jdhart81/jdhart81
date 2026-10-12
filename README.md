@@ -1,3 +1,7 @@
+<p>
+  <img src="assets/viridis-logo.png" alt="Viridis logo" width="96" height="96">
+</p>
+
 # Justin Hart
 
 I build open tools for conservation, soil science, understanding mathematical statements, inspecting research evidence, and running auditable agent services.

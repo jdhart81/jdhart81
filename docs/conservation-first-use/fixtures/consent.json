@@ -1,0 +1,97 @@
+{
+  "schema": "proposal-0.2",
+  "synthetic": true,
+  "subject": "fictional-coop-observation-001",
+  "rights_holder": "fictional-steward",
+  "purpose": "worksheet-only",
+  "location_precision": "no-coordinates",
+  "grants": [
+    {
+      "id": "grant-collect-001",
+      "action": "collect-private-observation",
+      "grantee": "fictional-tool",
+      "granted_at": "2026-10-12T11:00:00Z"
+    },
+    {
+      "id": "grant-access-001",
+      "action": "access-private-observation",
+      "grantee": "fictional-member",
+      "granted_at": "2026-10-12T11:00:00Z"
+    },
+    {
+      "id": "grant-export-001",
+      "action": "export-own-record",
+      "grantee": "fictional-steward",
+      "granted_at": "2026-10-12T11:00:00Z"
+    },
+    {
+      "id": "grant-public-summary-001",
+      "action": "publish-coarse-summary",
+      "grantee": "fictional-tool",
+      "granted_at": "2026-10-12T12:00:00Z",
+      "revoked_at": "2026-10-12T12:30:00Z"
+    }
+  ],
+  "revocation_scope": "future publication under this grant; prior distributed copies require separate reconciliation",
+  "public_payload": {
+    "observation_type": "synthetic-soil-photo-workflow",
+    "raw_photo": null,
+    "exact_location": null
+  },
+  "erasure_request": {
+    "requested_at": "2026-10-12T13:00:00Z",
+    "controlled_live_copy": "pending",
+    "controlled_backups": "pending",
+    "prior_external_recipients": "requires-reconciliation",
+    "completion_claim": false
+  },
+  "benefit_and_correction_review": {
+    "benefit_terms": "proposed-no-value-claim",
+    "correction_route": "reviewer-to-specify",
+    "verified": false
+  },
+  "review_cases": [
+    {
+      "action": "publish-coarse-summary",
+      "grantee": "fictional-tool",
+      "at": "2026-10-12T11:59:59Z",
+      "expected": "deny"
+    },
+    {
+      "action": "publish-coarse-summary",
+      "grantee": "fictional-tool",
+      "at": "2026-10-12T12:15:00Z",
+      "expected": "allow"
+    },
+    {
+      "action": "publish-coarse-summary",
+      "grantee": "fictional-tool",
+      "at": "2026-10-12T12:30:00Z",
+      "expected": "deny"
+    },
+    {
+      "action": "publish-coarse-summary",
+      "grantee": "fictional-member",
+      "at": "2026-10-12T12:15:00Z",
+      "expected": "deny"
+    },
+    {
+      "action": "export-own-record",
+      "grantee": "fictional-steward",
+      "at": "2026-10-12T12:45:00Z",
+      "expected": "allow"
+    },
+    {
+      "action": "export-own-record",
+      "grantee": "fictional-member",
+      "at": "2026-10-12T12:45:00Z",
+      "expected": "deny"
+    },
+    {
+      "action": "access-private-observation",
+      "grantee": "fictional-member",
+      "at": "2026-10-12T12:45:00Z",
+      "expected": "allow"
+    }
+  ]
+}

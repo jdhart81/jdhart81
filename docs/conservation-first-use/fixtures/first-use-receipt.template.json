@@ -1,0 +1,12 @@
+{
+  "experiment": "conservation-manual-handoff-1",
+  "participant_type": "independent-builder-or-steward",
+  "consented": false,
+  "first_use_at": null,
+  "completed_stages": [],
+  "useful_outcome": null,
+  "first_confusing_step": null,
+  "return_use_at": null,
+  "share_permission": false,
+  "synthetic_run_is_adoption": false
+}

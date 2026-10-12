@@ -1,0 +1,21 @@
+{
+  "format": "conservation-observation-proposal",
+  "version": 1,
+  "synthetic": true,
+  "id": "obs-synthetic-001",
+  "project_id": "synthetic-woodlot-001",
+  "observed_at": "2026-10-12T12:00:00Z",
+  "time_zone": "America/New_York",
+  "finding": "Synthetic surface photograph proposed for a soil observation; no soil property measured.",
+  "measurement": null,
+  "soil_prior": {
+    "status": "not_queried",
+    "estimate": null,
+    "uncertainty": "unavailable"
+  },
+  "photos": [],
+  "precise_location": null,
+  "gsip_submission_id": null,
+  "basis": "authored synthetic narrative, not a GSIP API export",
+  "review_status": "unreviewed"
+}

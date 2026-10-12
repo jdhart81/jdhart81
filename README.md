@@ -17,6 +17,12 @@ I build open tools for conservation, soil science, understanding mathematical st
 | [Viridis Canon](https://github.com/jdhart81/viridis-canon) | Inspect public research sources, exact claim scopes, build records, and certification boundaries. | [Read the current scope and reproduction guide](https://github.com/jdhart81/viridis-canon#start-here). |
 | [Viridis Agent Fleet](https://github.com/jdhart81/viridis-agent-fleet) | Run open-source deterministic agent cores through MCP adapters and inspect their results. | [Run an agent locally](https://github.com/jdhart81/viridis-agent-fleet#run-an-agent-locally-free-forever). |
 
+## See the conservation tools together
+
+[Try the fictional woodlot showcase](https://jdhart81.github.io/jdhart81/conservation-first-use/SHOWCASE.html): connect soil observations (GSIP), community coordination and review (VergeCommon), and modeled landscape planning (DFM), with farmOS activity records and OpenTEAM data-rights vocabulary. The example demonstrates a manual handoff and labels proposed adapters, uncertainty and consent boundaries. No partnership or ecological validation is implied.
+
+[Download the walkthrough and builder packet](https://github.com/jdhart81/jdhart81/tree/main/docs/conservation-first-use).
+
 ## More open tools and developer projects
 
 | Project | What to explore |

@@ -17,6 +17,25 @@ I build open tools for conservation, soil science, understanding mathematical st
 | [Viridis Canon](https://github.com/jdhart81/viridis-canon) | Inspect public research sources, exact claim scopes, build records, and certification boundaries. | [Read the current scope and reproduction guide](https://github.com/jdhart81/viridis-canon#start-here). |
 | [Viridis Agent Fleet](https://github.com/jdhart81/viridis-agent-fleet) | Run open-source deterministic agent cores through MCP adapters and inspect their results. | [Run an agent locally](https://github.com/jdhart81/viridis-agent-fleet#run-an-agent-locally-free-forever). |
 
+## More open tools and developer projects
+
+| Project | What to explore |
+| --- | --- |
+| [EnergyAI MCP](https://github.com/jdhart81/energyai-mcp) | Explore energy-planning estimates and incentive sources through MCP and REST; inspect assumptions and eligibility limits. |
+| [Logosphere](https://github.com/jdhart81/logosphere) | Inspect local reasoning graphs, explicit hypotheses, provenance, and conditional Lean verification. Developer preview. |
+| [ViridisOS](https://github.com/jdhart81/viridisos) | Explore the open reference runtime for DOI-backed decision modules and recomputable results. |
+| [QuantaOptima](https://github.com/jdhart81/quantaoptima) | Authenticate explicitly logged agent action records and check audit-chain integrity. Published alpha. |
+| [Maxwell’s Defense](https://github.com/viridis-security/maxwells-defense) | Inspect SHA-256 proof-of-work primitives for agent defenses and their stated model assumptions. |
+| [Viridis MCP Services SDK](https://github.com/viridis-security/mcp-services-sdk) | Explore TypeScript/Python clients from source; hosted contracts and package publication have separate readiness gates. |
+| [Verdigraph Neurogenesis](https://github.com/viridis-security/verdigraph-neurogenesis) | Build deterministic, content-addressed agent configuration artifacts locally. |
+| [VulnCanon](https://github.com/viridis-security/vulncanon) | Study bounded agent vulnerability classes with vulnerable/patched fixtures, detection rules, and mitigation guidance. |
+
+## Research foundations and upstream work
+
+The original [Intelligence Bound Lean formalization](https://github.com/jdhart81/intelligence-bound-lean) and [computational research materials](https://github.com/jdhart81/viridis-llc-intelligence-bound) remain reproducible references; active research development continues in Viridis Canon.
+
+Our [AI Scientist fork](https://github.com/jdhart81/AI-Scientist-fork), [TOFMapper fork](https://github.com/jdhart81/TOFMapper), and [Mathlib fork](https://github.com/jdhart81/mathlib4) are upstream-derived work, with credit and contribution boundaries belonging to their respective projects. [Browse the full public repository collection](https://github.com/jdhart81?tab=repositories&type=public), including supporting experiments and resource collections.
+
 ## Try one real question
 
 ProofLens is the easiest place to begin. Load a built-in example, change one parameter, and describe what changed and why. Then try a supported statement you want to understand.

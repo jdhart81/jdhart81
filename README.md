@@ -31,6 +31,8 @@ I build open tools for conservation, soil science, understanding mathematical st
 
 | Project | What to explore |
 | --- | --- |
+| [Viridis Data Ready](https://github.com/jdhart81/viridis-data-ready) | Prepare a supplied CSV against an explicit schema, inspect changes and held rows, and verify a local SQLite import when execution is available. [Public 0.1.2 download](https://github.com/jdhart81/viridis-data-ready/releases/tag/v0.1.2); read the execution requirements first. |
+| [Viridis Scope Desk](https://github.com/jdhart81/viridis-scope-desk) | Draft an evidence-linked scope or compare a requested change with a selected baseline. [Public 0.1.6 host-format downloads and synthetic example](https://github.com/jdhart81/viridis-scope-desk/releases/tag/v0.1.6); review generated handoffs before use. |
 | [EnergyAI MCP](https://github.com/jdhart81/energyai-mcp) | Explore energy-planning estimates and incentive sources through MCP and REST; inspect assumptions and eligibility limits. |
 | [Logosphere](https://github.com/jdhart81/logosphere) | Inspect local reasoning graphs, explicit hypotheses, provenance, and conditional Lean verification. Developer preview. |
 | [ViridisOS](https://github.com/jdhart81/viridisos) | Explore the open reference runtime for DOI-backed decision modules and recomputable results. |
@@ -43,6 +45,8 @@ I build open tools for conservation, soil science, understanding mathematical st
 ## Research foundations and upstream work
 
 The original [Intelligence Bound Lean formalization](https://github.com/jdhart81/intelligence-bound-lean) and [computational research materials](https://github.com/jdhart81/viridis-llc-intelligence-bound) remain reproducible references; active research development continues in Viridis Canon.
+
+Recent upstream contribution: [farmOS accepted our CSV-import documentation clarification](https://github.com/farmOS/farmOS/pull/1107) on October 18, 2026. It explains required and optional template columns and points readers to the current importer UI. The maintainer simplified the wording and preserved commit credit; [AI assistance was disclosed](https://github.com/farmOS/farmOS/pull/1107#issuecomment-6203939857).
 
 Our [AI Scientist fork](https://github.com/jdhart81/AI-Scientist-fork), [TOFMapper fork](https://github.com/jdhart81/TOFMapper), and [Mathlib fork](https://github.com/jdhart81/mathlib4) are upstream-derived work, with credit and contribution boundaries belonging to their respective projects. [Browse the full public repository collection](https://github.com/jdhart81?tab=repositories&type=public), including supporting experiments and resource collections.
 

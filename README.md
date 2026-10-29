@@ -44,7 +44,7 @@ I build open tools for conservation, soil science, understanding mathematical st
 
 ## Research foundations and upstream work
 
-The original [Intelligence Bound Lean formalization](https://github.com/jdhart81/intelligence-bound-lean) and [computational research materials](https://github.com/jdhart81/viridis-llc-intelligence-bound) remain reproducible references; active research development continues in Viridis Canon.
+The original [Intelligence Bound Lean formalization](https://github.com/jdhart81/intelligence-bound-lean) and [computational research materials](https://github.com/jdhart81/viridis-llc-intelligence-bound) remain reproducible references; active research development continues in Viridis Canon. [Viridis Research](https://github.com/jdhart81/viridis-research) is the nightly public research record, with every claim labeled by what an automated verifier actually checked.
 
 Recent upstream contribution: [farmOS accepted our CSV-import documentation clarification](https://github.com/farmOS/farmOS/pull/1107) on October 18, 2026. It explains required and optional template columns and points readers to the current importer UI. The maintainer simplified the wording and preserved commit credit; [AI assistance was disclosed](https://github.com/farmOS/farmOS/pull/1107#issuecomment-6203939857).
 
